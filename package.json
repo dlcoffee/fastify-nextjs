@@ -1,0 +1,25 @@
+{
+  "name": "fastify-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api:start": "npm run start -w api",
+    "web:dev": "npm run dev -w web",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlcoffee/fastify-nextjs.git"
+  },
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "author": "daniel tea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlcoffee/fastify-nextjs/issues"
+  },
+  "homepage": "https://github.com/dlcoffee/fastify-nextjs#readme"
+}

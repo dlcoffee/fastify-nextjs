@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlcoffee/fastify-nextjs.git"
+  },
+  "author": "daniel tea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlcoffee/fastify-nextjs/issues"
+  },
+  "homepage": "https://github.com/dlcoffee/fastify-nextjs#readme",
+  "dependencies": {
+    "fastify": "^4.2.1"
+  }
+}
